@@ -5,7 +5,7 @@ import Form from './Register'
 import { Route, Routes, Router } from 'react-router-dom';
 import Home from './Home';
 
-function Members() {
+function Job() {
 
     let [showProduct, setShowProduct] = useState(true);
     let [showForm, setShowForm] = useState(false);
@@ -60,4 +60,4 @@ function Members() {
     )
 }
 
-export default Members
+export default Job

@@ -5,6 +5,10 @@ import Form from './Register'
 import { Route, Routes, Router } from 'react-router-dom';
 import Home from './Home';
 import { NavbarBootstrap } from './navbarBS';
+//import React from 'react';
+// import{ LinkedInApi, NodeServer } from './config';
+// import axios from 'axios';
+// import linkedInLoginImage from './linkedin-login-images/Retina/Sign-In-Small---Default.png';
 
 function App() {
 
