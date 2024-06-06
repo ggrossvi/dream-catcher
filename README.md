@@ -1,8 +1,6 @@
-# React + Vite
+# Dream Catcher
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Front-end is React
+Bootstrap for the navigation and carousel
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+We can create separate branches to keep track of changes.  git checkout -b github_username_name_of_branch origin/main   The origin/main is so when you do a git pull it pulls from the main branch

@@ -10,11 +10,11 @@ export const NavbarBootstrap = () => {
             </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <a className="nav-item nav-link active" href="#">Home 
+                        <a className="nav-item nav-link disabled" href="#">Home 
                             <span className="sr-only">(current)</span></a>
-                        <a className="nav-item nav-link" href="#">Features</a>
-                        <a className="nav-item nav-link" href="#">Pricing</a>
-                        <a className="nav-item nav-link disabled" href="#">Disabled</a>
+                        <a className="nav-item nav-link active" href="/members">Members</a>
+                        <a className="nav-item nav-link active" href="/events">Events</a>
+                        <a className="nav-item nav-link active" href="/jobs">Jobs</a>
                     </div>
                 </div>
         </nav>

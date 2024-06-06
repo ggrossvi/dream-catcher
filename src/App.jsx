@@ -1,6 +1,6 @@
 import Product from './Product'
 import './App.css'
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Form from './Register'
 import { Route, Routes, Router } from 'react-router-dom';
 import Home from './Home';
@@ -11,6 +11,12 @@ function App() {
   let [showProduct, setShowProduct] = useState(true);
   let [showForm, setShowForm] = useState(false);
 
+  useEffect(() => {
+    fetch('https://localhost:8800/users')
+      .then(res => res.json())
+      .then(data => console.log(data))
+      .catch(err => console.log(err))
+  }, [])
 
   return (
 
