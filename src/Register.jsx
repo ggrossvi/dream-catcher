@@ -1,6 +1,6 @@
 import {useState} from 'react';
  
-export default function Form()  {
+export default function Register()  {
 	const  [inputValue, setInputValue] =  useState('');
 
 	const  handleChange = (event) => {
