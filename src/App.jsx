@@ -4,7 +4,8 @@ import React, { useState, useEffect } from 'react';
 import Form from './Register'
 import { Route, Routes, Router } from 'react-router-dom';
 import Home from './Home';
-import { NavbarBootstrap } from './navbarBS';
+import NavbarBootstrap from './navbar/navbarBS';
+// import { NavbarBootstrap } from './navbarBS';
 //import React from 'react';
 // import{ LinkedInApi, NodeServer } from './config';
 // import axios from 'axios';
@@ -25,8 +26,9 @@ function App() {
   return (
 
     <div className='App'>
-      <NavbarBootstrap />{/* 
-      <nav>
+      <NavbarBootstrap />
+      {/* <NavbarBootstrap /> */}
+      {/* <nav>
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/product">Product</a></li>
