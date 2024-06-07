@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react'
 
 
-const Product = () => {
+const Member = () => {
 
   let [name, setName] = useState('Iphone 13');
   let [price, setPrice] = useState(1000);
   let [products, setProducts] = useState([]);
+  //let [products, setProducts] = useState([]);
+  
 
   // by default useEffect will run after every render
   // it will run only once after the component is mounted if you add the dependency array as the second argument
@@ -38,7 +40,7 @@ const Product = () => {
 
   return (
     <>
-      <h1>Products</h1>
+      <h1>Members</h1>
       <div className="products">
 
         {/* <h1>{name}</h1>
@@ -64,5 +66,5 @@ const Product = () => {
   )
 }
 
-export default Product
+export default Member
 

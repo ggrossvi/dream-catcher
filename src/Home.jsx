@@ -23,8 +23,7 @@ export const Home = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={4500}>
-          <img
-            className="d-block w-100"
+          <img className="d-block w-100"
             src="src/assets/react.svg"
             alt="Image Two"
           />
@@ -34,6 +33,26 @@ export const Home = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      <div className="flex-container">
+        <section id="events" className="bg-light mt-5">
+          <div className="container-lg">
+            <div className="text-center">
+              <h2>Events</h2>
+              <p className="lead text-muted">Come meet your next BFF or employer</p>
+            </div>
+          </div>
+        </section>
+        <section id="events" className="bg-light mt-5">
+          <div className="container-lg">
+            <div className="text-center">
+              <h2>Events</h2>
+              <p className="lead text-muted">Come meet your next BFF or employer</p>
+            </div>
+          </div>
+        </section>
+      </div>
+      
+
     </div>
   );
 };

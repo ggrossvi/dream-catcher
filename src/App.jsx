@@ -1,4 +1,4 @@
-import Product from './Product'
+import Product from './Member'
 import './App.css'
 import React, { useState, useEffect } from 'react';
 import Form from './Register'
