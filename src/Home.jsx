@@ -2,11 +2,13 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "./Home.css";
 
 
 export const Home = () => {
   return (
 
+  <div className="container">
     <div style={{ display: 'block', width: '600px', margin: 0, padding: 30 }}>
       <h4>Women In Cloud</h4>
       <Carousel>
@@ -53,6 +55,7 @@ export const Home = () => {
       </div>
       
 
+    </div>
     </div>
   );
 };
