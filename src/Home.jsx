@@ -95,11 +95,28 @@ export const Home = () => {
                 </div>
               </div>
             </section>
-            <section id="events" className="bg-light mt-5">
+          
+            <section id="news" className="bg-light mt-5">
               <div className="container-lg">
                 <div className="text-center">
-                  <h2>Events</h2>
-                  <p className="lead text-muted">Come meet your next BFF or employer</p>
+                  <h2>News</h2>
+                      <p className="lead text-muted">Women In Cloud Launches Microsoft Cybersecurity Certification Scholarships To Spur $1 Billion in Economic 
+                Access and Propel Career Opportunities for Women in US Markets</p>
+                  <p>To learn more and apply for this scholarship visit our website: 
+                    https://womenincloud.com/cybersecurity/
+                  </p>
+                </div>
+              </div>
+            </section>
+            <section id="Jobs" className="bg-light mt-5">
+              <div className="container-lg">
+                <div className="text-center">
+                  <h2>Jobs</h2>
+                      <p className="lead text-muted">Cloud Network Engineer II</p>
+                  <p>Job Details</p>
+                  <p>As part of Microsoft Azure, the Azure Networking team designs and builds the network infrastructure that powers hundreds of thousands of servers in datacenters around the globe, providing core network infrastructure services for Azure, Bing, and other Microsoft cloud services. In Azure Networking, we are at the very front of Cloud Computing by running one of the largest data center network infrastructures in the world. By joining this team, you will gain marketable experience in service-oriented network architectures and datacenter networking at massive scale. 
+                    <a href="https://www.linkedin.com/jobs/search/?currentJobId=3937771360&geoId=103644278&keywords=cloud%20network%20engineer%20microsoft&location=United%20States&origin=JOB_SEARCH_PAGE_SEARCH_BUTTON&refresh=true">&nbsp;Apply here:</a>
+                  </p>
                 </div>
               </div>
             </section>
