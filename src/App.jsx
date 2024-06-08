@@ -5,7 +5,7 @@ import Form from './Register'
 import { Route, Routes, Router } from 'react-router-dom';
 import Home from './Home';
 import NavbarBootstrap from './navbar/navbarBS';
-//import TagsInput from './TagsInput';
+import TagsInput from './TagsInput';
 // import { NavbarBootstrap } from './navbarBS';
 //import React from 'react';
 // import{ LinkedInApi, NodeServer } from './config';
@@ -33,8 +33,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/product" element={<Product />} />
         <Route path="/form" element={<Form />} />
-        <Route path="/tags" element={<TagsInput />} /> 
-        <Route path="/tags" element={<TagsInput />} /> 
+        <Route path="/tags" element={<TagsInput />} />  
       </Routes>
 
       <Home />
