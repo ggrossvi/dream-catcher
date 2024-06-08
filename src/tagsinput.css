@@ -1,0 +1,33 @@
+.tagsinput .tagsinput-container {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.tagsinput-container {
+    border:2px solid black;
+    padding: 5px;
+    border-radius: 3px; 
+    width: min(80vw,200px);
+    margin-top: 1em;
+}
+
+.tag-item {
+    background-color: rgb(227, 205, 221);
+    display: inline-block;
+    padding: 5em .7em;
+    border-radius: 20px;
+}
+.tag-item .close {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(48, 48, 48);
+    display: inline-block;
+    color: white;
+    border-radius: 50%;
+    display:in-line-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: .5em;
+    font-size: 18px;
+}
