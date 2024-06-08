@@ -36,9 +36,6 @@ function App() {
         <Route path="/tags" element={<TagsInput />} />  
       </Routes>
 
-      <Home />
-
-
     </div>
   )
 }
