@@ -70,7 +70,7 @@ export const Home = () => {
               <Carousel.Caption>
                 <h3>Join our Community</h3>
                 <p></p>
-                <Button variant="primary">Join Now</Button>
+                <a href ="https://www.linkedin.com/company/women-in-cloud/"><Button variant="primary">Join Now</Button></a>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={4500}>
