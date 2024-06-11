@@ -14,7 +14,7 @@ Created text to speech(TTS) functionality that allows members to listen to the l
 
 ![High Level Architecture for the App](/src/assets/DreamCatcherHome.png)
 
-2st iteration:
+2nd iteration:
 
 Create a tool that allows members to post job descriptions available within their company.  
 
@@ -27,6 +27,9 @@ Extend text to speech functionality to job postings.
 3rd iteration:
 Set up dashboard to track this data with Power Bi.  
 
+4th iteration:
+Add RAG capability to search site and provide personalized resources to members.  
+
 
 ## Technologies
 - Front-end is React
@@ -38,7 +41,9 @@ Set up dashboard to track this data with Power Bi.
 ![High Level Architecture for the App](/src/assets/DreamCatcherHighLevelArchitecture.png)
 
 Github:
-
+https://github.com/ggrossvi/dream-catcher
+https://github.com/ggrossvi/dream-catcher-backend
+(add Azure Function repo - TTS)
 
 ## Why the selected Technologies
 
@@ -49,5 +54,16 @@ The chose of using MySQl was ease of use. In the future we would use Cosmos DB.
 ## Challenges 
 
 Due to unforseen circumstances our group dropped down to 2 active participats at the end. This was challenging because of the short amount of time of the hackathon. We had to pivot at the end from our original vision to something more pared down.  
+
+# Future Tech Additions
+
+In addition to the future iterations we listed above we would like to include 
+
+- Log in functionality (LinkedIn)
+- Key vault
+- Load Balancing
+- Containers
+- CI/CD
+
 
 
